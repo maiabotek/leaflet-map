@@ -27,6 +27,11 @@ article {
   padding: 1rem;
 }
 
+h2 {
+  margin-bottom: 0;
+  margin: auto;
+}
+
 p {
   max-width: 35rem;
   font-size: 1.15rem;
@@ -34,18 +39,26 @@ p {
   margin-top: 1rem;
 }
 
+footer {
+    max-width: 95%;
+    padding: 1rem;
+    background: #F5F5F5;
+    margin: auto;
+    text-align: center;
+}
+
 #map1 {
   height: 300px;
   width: 90%;
   margin: auto;
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 #map2 {
   height: 500px;
   width: 90%;
   margin: auto;
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 @media screen and (max-width:375px){
@@ -75,8 +88,15 @@ section {
   padding: 1rem;
 }
 
+footer {
+  margin: 0rem;
+  margin-top: .5rem;
+  max-width: 95%;
+  padding: 1rem;
+}
+
 #map1 {
-  padding: .5rem;
+  padding: 0rem;
   margin: .5rem;
   margin: auto;
   max-width: 100%;
@@ -87,6 +107,7 @@ section {
 height: 800px;
 width: 400px;
 width: 100%;
+padding: 0rem;
 margin: 0rem;
 margin: auto;
 border: 1px solid #000
